@@ -13,6 +13,35 @@ body {
   background-size: cover;
 }
 
+#containerEgg
+{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+
+#egg {
+   display:block;
+   position: relative;
+   margin-right: 42%;
+   width: 200px;
+   height: 300px;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+}
+
+#textEgg{
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    right: 27%;
+    top: 123px;
+    text-align: center;
+}
+
 .container h1{
   color: white;
 }
@@ -126,7 +155,7 @@ a {
   text-decoration:none;
 }
 
-.jumbotron, .navbar, .collapse{
+.jumbotron{
   background:url("../pictures/orange.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
