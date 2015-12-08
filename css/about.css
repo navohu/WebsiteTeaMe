@@ -1,0 +1,161 @@
+body {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  overflow: scroll;
+  background:url("../pictures/back.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container h1{
+  color: white;
+}
+
+ul,ol{
+  color: white;
+}
+table{
+  color: white;
+  background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+  background: rgba(54, 25, 25, .5);
+}
+
+th, td {
+    padding: 20px;
+}
+
+.container h1 small{
+  color: LightGray;
+}
+
+p {
+	color: white;
+}
+
+h3{
+  color: white;
+}
+
+.rotate90 {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+ }
+
+
+.page-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* negative indent footer by its height */
+  margin: 0 auto -120px;
+  /* pad bottom by footer height */
+  padding: 0 0 120px;
+}
+
+a {
+  color:#efefef;
+}
+.text-center {
+  padding-top: 20px;
+}
+
+#sidebar {
+  height: 100%;
+  padding-right: 0;
+  padding-top: 20px;
+}
+
+#sidebar .affix {
+  position:fixed;
+  top:55;
+  width:220px;
+}
+
+#sidebar .affix-bottom {
+  position:fixed;
+  top:55;
+  width:220px;
+}
+
+#sidebar .nav {
+  width: 95%;
+}
+#sidebar li {
+  border:0 #1e1e1e solid;
+  border-bottom-width:1px;
+}
+#sidebar li a {
+  padding-left:1px;
+}
+#sidebar li a:hover {
+  background-color:#222222;
+  color:#ffffff;
+}
+
+
+#footer {
+  height: 120px;
+  background-color: #222222;
+  border:0 solid #080808;
+  border-top-width: 1px;
+  margin-top:50px;
+  z-index:100;
+}
+
+#footer > .container {
+  padding: 20px;
+}
+
+#footer a{
+  color:#cccccc;
+}
+
+#footer a:hover {
+  color:#ffffff;
+  margin-left:-2px;
+  text-decoration:none;
+}
+
+.jumbotron, .navbar, .collapse{
+  background:url("../pictures/orange.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container h2{
+  color: white;
+}
+
+.expand{
+  max-width: 100%;
+  height: auto;
+  -webkit-transition:all ease .5s;
+  transition:all ease .5s;
+} 
+button:hover{
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+
+#myNavbar{
+  font-size: 120%
+}
+
+#mainButton{
+  font-size: 140%
+}

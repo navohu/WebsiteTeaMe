@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Future Workplace</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="shortcut icon" href="pictures/icon.jpg">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="page-header">
+            <h1>Requirements <small>TeaMe</small></h1>
+        </div>
+        <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div data-spy="affix" data-offset-top="45" data-offset-bottom="130">
+            <ul class="nav" id="sidebar-nav">
+              <li><a href="Homepage.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="remote.html">Remote Working</a></li>
+              <li><a href="requirements.html">Requirements</a></li>     
+              <li><a href="prototype.html">Prototype</a></li> 
+              <li><a href="testing.html">Testing</a></li>
+              <li><a href="version_control.html">Version Control</a></li>
+              <li><a href="results.html">Results</a></li>
+              <li><a href="progress.html">Progress</a></li>
+              <li><a href="plans.html">Plans</a></li>    
+            </ul>
+           </div>
+        </div>
+    
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+          <h2>Shortcuts</h2>
+          <ul>
+            <li><a href="#section1">Moscow List</a></li>
+            <li><a href="#section2">User Needs</a></li>
+            <li><a href="#section3">Functional Requirements</a></li>
+            <li><a href="#section4">Non Functional Requirements</a></li>
+            <li><a href="#section5">Use Case 1</a></li>
+            <li><a href="#section6">Use Case 2</a></li>
+            <li><a href="#section7">Use Case 3</a></li>
+          </ul>
+          <h1 id="section1">TeaMe's Requirements from ATOS</h1>
+          <p> MoSCoW List </p>
+    
+          <p> <ul>
+                <li>Must
+                  <ul>
+                    <li>Remote</li>
+                    <li>Social</li>
+                    <li>Login (Facebook/ATOS)</li>
+                    <li>Database of the users</li>
+                    <li>Manage group settings (add, remove etc.)</li>
+                    <li>Logo</li>
+                    <li>To-do list</li>
+                    <li>Tick items that are finish</li>
+                    <li>Security</li>
+                  </ul>
+                </li>
+                <li>Should
+                  <ul>
+                    <li>Separate</li>
+                    <li>Work on all platforms</li>
+                    <li>Style</li>
+                    <li>Prototype</li>
+                    <li>Send picture</li>
+                    <li>Mood status "How do you feel?"</li>
+                  </ul>
+                </li>
+                <li>Could
+                  <ul>
+                    <li>Hierarchy</li>
+                    <li>Notification button</li>
+                    <li>Mobile/Web</li>
+                    <li>Reminders</li>
+                    <li>News feed</li>
+                    <li>Standard phrases to send</li>
+                    <li>Status page</li>
+                    <li>Profile page</li>
+                  </ul>
+                </li>
+                <li>Would
+                  <ul>
+                    <li>Emojis</li>
+                    <li>Location Service (time difference)</li>
+                    <li>Traffic light system (RAG status)</li>
+                    <li>Interest groups</li>
+                    <li>Contacts import</li>
+                    <li>Status (online/offline)</li>
+                    <li>Physical status (meeting, out of the country, ...)</li>
+                  </ul>
+                </li>
+          </ul></p>
+          
+          <!-- TABLE WITH USER NEEDS -->
+          <h1 id="section2">User Needs ATOS</h1>
+          <table border="1" style="width:100%">
+            <tr>
+              <td>Number</td>
+              <td>
+                <ol>
+                  <li>Social</li>
+                  <li>Remote</li>
+                  <li>Work on all platforms</li>
+                  <li>To do list</li>
+                  <li>Reminders</li>
+                </ol>
+            </tr>
+            <tr>
+              <td>Description</td>
+              <td>
+                <ol>
+                  <li>The workplace should make people get better in socialising, interacting with other colleagues and bosses. The need of sending messages is for helping people to communicate with each other and to share the parts of the tasks they have done.</li>
+                  <li>The workplace should be remote such that the cost, travel and office expenses for the company decreases and efficiency must increase.</li>
+                  <li>The application...</li>
+                  <li>One of the features of application which will contain list of basic duties of each member.</li>
+                  <li>This is another feature of the application which will be for sending notifications and displaying small messages with the purpose of reminding.</li>
+                </ol>
+              </td> 
+            </tr>
+            <tr>
+              <td>Rationale</td>
+              <td>
+                <ol>
+                  <li>The social need is identified by people becoming less social as remote working is increasing and people are therefore not around other people as much. This is an important skill as almost all projects are based on teamwork where you will need to collaborate. The social skill is very important here in order to create the best possible result.</li>
+                  <li>The need of remote working is identified as it requires travel expenses, cost in having offices, electricity and heating.</li>
+                  <li>The need for application work on all platforms is identified because it would be better if the application can be installed on all platforms(IOS, Android), so that it can be used by everyone no need to change the communication device or the platform they have.</li>
+                  <li>The need to have a to do list in the application is identified because it is obvious to that in a team each member is given a task or the list of the things to do. To have this kind of list will help team members get a balanced allocation of tasks for each employee, and feel more accountable.</li>
+                  <li>The reason why this need is identified is today’s busy lifestyle and so a large number of forgetful people. This will be very useful in involving those workers in the project, as well as helping those ones to be much more connected with their team.</li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+          <!-- END TABLE -->
+
+          <!-- TABLE WITH FUNCTIONAL NEEDS -->
+          <h1 id="section3">Functional Needs</h1>
+          <table border="1" style="width:100%">
+            <tr>
+              <td><h3>ID</h3></td>
+              <td><h3>FUNCTIONAL REQUIREMENTS</h3></td>
+              <td><h3>PRIORITY</h3></td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>General</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>1.</td>
+              <td>The system shall allow users to navigate between different pages</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>The system shall provide a hierarchical structure of functions</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td>The system shall provide users with to do list</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td>The system shall provide users with messaging</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td>The system shall provide users with news feed</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td>The system shall ask users to include their mood status when they open the application</td>
+              <td>S</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td>The system shall allow users to import contacts from ATOS or Facebook</td>
+              <td>W</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td>The system shall allow users to send emojis</td>
+              <td>W</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td>The system shall let users to send standard phrases instead of messages</td>
+              <td>M</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Team Management</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td>The system shall allow users to see all the teams they are in</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>11.</td>
+              <td>The system shall allow users to create a new team</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>12.</td>
+              <td>The system shall allow users to add members to a team</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>13.</td>
+              <td>The system shall add a member for everyone when someone adds a contact to a group</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>14.</td>
+              <td>The system shall allow admins of groups to remove members</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>15.</td>
+              <td>The system shall let users to create groups according to their interest</td>
+              <td>W</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Messaging</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>16.</td>
+              <td>The system shall allow users to pick one or more people to chat</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>17.</td>
+              <td>The system shall allow users to send pictures and files</td>
+              <td>S</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Task Management</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>18.</td>
+              <td>The system shall allow the users to tick the boxes in front of the tasks when they are done</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>19.</td>
+              <td>The system shall provide users with reminders</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>20.</td>
+              <td>The system shall use RAG status to to let users see their progress</td>
+              <td>W</td>
+            </tr>
+            <tr>
+              <td>21.</td>
+              <td>The system shall let users to add tasks for the other users</td>
+              <td>W</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>News Feed</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>22.</td>
+              <td>The system shall let users change their group in news feed page</td>
+              <td>M</td>
+            </tr>
+            <tr>
+              <td>23.</td>
+              <td>The system shall let users to post news </td>
+              <td>S</td>
+            </tr>
+            <tr>
+              <td>24.</td>
+              <td>The system shall allow users to send pictures and files</td>
+              <td>S</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Personal Details</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>25.</td>
+              <td>The system shall have a page to let users write their status</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>26.</td>
+              <td>The system shall have a profile page for each user</td>
+              <td>C</td>
+            </tr>
+            <tr>
+              <td>27.</td>
+              <td>The system shall allow users to share their location</td>
+              <td>W</td>
+            </tr>
+            <tr>
+              <td>28.</td>
+              <td>The system shall allow users to choose an online or offline status</td>
+              <td>W</td>
+            </tr>
+            <tr>
+              <td>29.</td>
+              <td>The system shall let users add their physical status</td>
+              <td>W</td>
+            </tr>
+          </table>
+          <!-- END TABLE -->
+
+          <!-- TABLE WITH NON FUNCTIONAL NEEDS -->
+          <h1 id="section4">Non Functional Needs</h1>
+          <table border="1" style="width:100%">
+            <tr>
+              <td><h3>ID</h3></td>
+              <td><h3>NON FUNCTIONAL REQUIREMENTS</h3></td>
+              <td><h3>PRIORITY</h3></td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Security</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>30.</td>
+              <td>The system shall keep all the information about employees safe as it is necessary for the company-ATOS not to have any revealed information.</td>
+              <td>M</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Platforms</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>31.</td>
+              <td>The system shall allow users to use it on all platforms </td>
+              <td>S</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Storing Data</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>32.</td>
+              <td>The system shall store the list of users and details in a database</td>
+              <td>M</td>
+            </tr>
+            <tr bgcolor="#696969">
+              <td> </td>
+              <td><h5>Mobile and Web</h5></td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td>33.</td>
+              <td>The system shall function both as web and mobile application</td>
+              <td>W</td>
+            </tr>
+          </table>
+          <!-- END TABLE -->
+
+          <!-- TABLE WITH USE CASES -->
+          <h1 id="section5">Use Case 1</h1>
+          <table border="1" style="width:100%">
+            <tr><td><h3>Use Case: Add a New Team</h3></td></tr>
+            <tr><td>
+              <b>ID:</b> UC1
+            </td></tr>
+            <tr><td>
+              <b>Brief Description: </b> The users can add a new team
+            </td></tr>
+            <tr><td>
+              <b>Primary Actors: </b> Users
+            </td></tr>
+            <tr><td>
+              <b>Secondary Actors: </b> Users invited to the team
+            </td></tr>
+            <tr><td>
+              <b>Preconditions: </b> Users must be logged in to the system
+            </td></tr>
+            <tr><td>
+              <b>Main Flow:  </b> 
+              <ol>
+                <li>Use case starts when user selects “+”</li>
+                <li>The system shows a new page to create a new team</li>
+                <li>User types a team name </li>
+                <li>User types the emails of the users he/she wants to add to the team </li>
+                <li>User clicks “Done” </li>
+                <li>The system takes the user to teams page</li>
+              </ol>
+            </td></tr>
+            <tr><td>
+              <b>Post Conditions: </b> The system will add a new team to the list of teams
+            </td></tr>
+            <tr><td>
+              <b>Alternative Flow: </b> If the invitation email is incorrect notify the user
+            </td></tr>
+          </table>
+          <!-- END TABLE -->
+
+          <!-- USE CASE 2 -->
+          <h1 id="section6">Use Case 2</h1>
+          <table border="1" style="width:100%">
+            <tr><td><h3>Use Case: Send a file</h3></td></tr>
+            <tr><td>
+              <b>ID:</b> UC2
+            </td></tr>
+            <tr><td>
+              <b>Brief Description: </b> The users can send pictures and files
+            </td></tr>
+            <tr><td>
+              <b>Primary Actors: </b> Users
+            </td></tr>
+            <tr><td>
+              <b>Secondary Actors: </b> Receiving user
+            </td></tr>
+            <tr><td>
+              <b>Preconditions: </b> Users must be logged in to the system <br>Files must be in a correct format
+            </td></tr>
+            <tr><td>
+              <b>Main Flow:  </b> 
+              <ol>
+                <li>Use case starts when user selects a team </li>
+                <li>The system takes to the selected team page </li>
+                <li>Employee chooses “News Feed” by sliding the page to the right </li>
+                <li>The system displays the selected page</li>
+                <li>Employee clicks file symbol, adds a file and then “Send”</li>
+                <li>The file will be seen in the News Feed page</li>
+              </ol>
+            </td></tr>
+            <tr><td>
+              <b>Post Conditions: </b> The system will share files with all members of the group
+            </td></tr>
+            <tr><td>
+              <b>Alternative Flow: </b> None
+            </td></tr>
+          </table>
+          <!-- END TABLE -->
+
+          <!-- USE CASE 3 -->
+          <h1 id="section7">Use Case 3</h1>
+          <table border="1" style="width:100%">
+            <tr><td><h3>Use Case: Tick done tasks</h3></td></tr>
+            <tr><td>
+              <b>ID:</b> UC3
+            </td></tr>
+            <tr><td>
+              <b>Brief Description: </b> The users can tick done tasks
+            </td></tr>
+            <tr><td>
+              <b>Primary Actors: </b> Users
+            </td></tr>
+            <tr><td>
+              <b>Secondary Actors: </b> None
+            </td></tr>
+            <tr><td>
+              <b>Preconditions: </b> Employee must be logged in to the system <br> There must be tasks in the state “not ready”
+            </td></tr>
+            <tr><td>
+              <b>Main Flow:  </b> 
+              <ol>
+                <li>Use case starts when user selects a team </li>
+                <li>The system displays that team page </li>
+                <li>Employee chooses “To do list” by sliding the current page</li>
+                <li>The system takes the employee to tasks page</li>
+                <li>The employee tick the boxes in front of the tasks he/she has completed</li>
+                <li>The system saves changes and displays updated done tasks list</li>
+              </ol>
+            </td></tr>
+            <tr><td>
+              <b>Post Conditions: </b> None
+            </td></tr>
+            <tr><td>
+              <b>Alternative Flow: </b> If an employee does not tick a box in front of the tasks, the list will not be updated
+            </td></tr>
+          </table>
+          <!-- END TABLE -->
+
+        </div><!-- /.col-xs-12 main -->
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+
+
+<div id="footer"><!--footer-->
+  <div class="container">
+        <div class="row">
+          <ul class="list-unstyled">
+            <li class="col-sm-4 col-xs-6">
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+        </div><!--/row-->
+    </div>
+</div>
+</body>
+</html>

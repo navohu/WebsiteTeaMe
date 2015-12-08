@@ -1,0 +1,49 @@
+body {
+  position: absolute;
+  width:100%;
+  height: 100%;
+  overflow: scroll;
+  background:url("../pictures/back.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron, .navbar, .collapse{
+  background:url("../pictures/orange.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container h2{
+	color: white;
+}
+
+.expand{
+	max-width: 100%;
+  height: auto;
+  -webkit-transition:all ease .5s;
+  transition:all ease .5s;
+}	
+button:hover{
+	-webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+
+#myNavbar{
+  font-size: 120%
+}
+
+#mainButton{
+  font-size: 140%
+}
+
+
+
