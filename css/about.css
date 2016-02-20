@@ -13,6 +13,13 @@ body {
   background-size: cover;
 }
 
+
+
+img{
+  vertical-align: middle;
+  border: 0;
+}
+
 #containerEgg
 {
     height:100%;
@@ -40,6 +47,13 @@ body {
     right: 27%;
     top: 123px;
     text-align: center;
+}
+
+#youTubeVideo{
+  text-align: center;
+  top: 334px;
+  left: 29%;
+  position: absolute;
 }
 
 .container h1{
@@ -78,6 +92,14 @@ h3{
  -o-transform: rotate(90deg);
  -ms-transform: rotate(90deg);
  transform: rotate(90deg);
+ }
+
+ .rotateMinus90 {
+ -webkit-transform: rotate(270deg);
+ -moz-transform: rotate(270deg);
+ -o-transform: rotate(270deg);
+ -ms-transform: rotate(270deg);
+ transform: rotate(270deg);
  }
 
 
@@ -187,4 +209,32 @@ button:hover{
 
 #mainButton{
   font-size: 140%
+}
+
+.bigtext {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+ 
+.expand, .contract {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  color: #555;
+}
+.expand:hover, .contract:hover {
+  color: #121212;
+}
+ 
+.hide {
+  display: none;
+}
+
+#wrapper {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
